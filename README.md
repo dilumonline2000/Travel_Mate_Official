@@ -1,12 +1,12 @@
-# Travel and Tourism Management System
+# Travel and Tourism Management System <br/>
 
-Travel Mate Officials
+Travel Mate Officials <br/>
 
-ITP Project Y2S2
+ITP Project Y2S2 <br/>
 
-MERN Stack + Material UI
+MERN Stack + Material UI <br/>
 
-----Contributors------
-IT22210524 - Kariyawasam K D T 
+----Contributors------ <br/>
+IT22210524 - Kariyawasam K D T <br/>
 
   
