@@ -1,13 +1,21 @@
-import React, { useState } from 'react';
-import { TextField, Button, Typography, Container, Card, CardContent, Alert } from '@mui/material';
-import axios from 'axios';
+import React, { useState } from "react";
+import {
+  TextField,
+  Button,
+  Typography,
+  Container,
+  Card,
+  CardContent,
+  Alert,
+} from "@mui/material";
+import axios from "axios";
 
 const TicketForm = () => {
-  const [departure, setDeparture] = useState('');
-  const [arrival, setArrival] = useState('');
-  const [travelDate, setTravelDate] = useState('');
-  const [availableSeats, setAvailableSeats] = useState('');
-  const [price, setPrice] = useState('');
+  const [departure, setDeparture] = useState("");
+  const [arrival, setArrival] = useState("");
+  const [travelDate, setTravelDate] = useState("");
+  const [availableSeats, setAvailableSeats] = useState("");
+  const [price, setPrice] = useState("");
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
 
@@ -15,29 +23,30 @@ const TicketForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/tickets', {
+      const response = await axios.post("http://localhost:5000/api/tickets", {
         departure,
         arrival,
         travelDate,
         availableSeats,
         price,
       });
-      setSuccess('Ticket added successfully!');
+      setSuccess("Ticket added successfully!");
       setError(null);
       // Clear the form
-      setDeparture('');
-      setArrival('');
-      setTravelDate('');
-      setAvailableSeats('');
-      setPrice('');
+      setDeparture("");
+      setArrival("");
+      setTravelDate("");
+      setAvailableSeats("");
+      setPrice("");
     } catch (err) {
-      setError('Error adding ticket');
+      setError("Error adding ticket");
       setSuccess(null);
     }
   };
 
+  //Ticket Adding Form
   return (
-    <Container maxWidth="sm" style={{ marginTop: '2rem' }}>
+    <Container maxWidth="sm" style={{ marginTop: "2rem" }}>
       <Card>
         <CardContent>
           <Typography variant="h5" gutterBottom>
@@ -94,7 +103,7 @@ const TicketForm = () => {
               type="submit"
               variant="contained"
               color="primary"
-              style={{ marginTop: '1rem' }}
+              style={{ marginTop: "1rem" }}
             >
               Add Ticket
             </Button>
