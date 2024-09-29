@@ -11,7 +11,7 @@ IT22210524 - Kariyawasam K D T <br/>
 IT22055194- Gunathilaka S P U  <br/>
 IT22135902 - Hewamanne N V <br/>
 IT22193636 - G R V H Kumara <br/> 
-IT22138972 - Kumarage
+IT22138972 - Kumarage D.D <br/>
 
 
   
