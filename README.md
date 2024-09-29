@@ -13,5 +13,5 @@ IT22135902 - Hewamanne N V <br/>
 IT22193636 - G R V H Kumara <br/> 
 IT22138972 - Kumarage D.D <br/>
 IT22149480 - Satharasinghe K S <br/>
-IT22276964 - randinu kpy <br/>
+IT22276964 - Randinu K P Y <br/>
   
