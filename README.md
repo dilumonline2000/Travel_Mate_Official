@@ -73,11 +73,11 @@ REACT_APP_API_BASE_URL=your_backend_api_url
 ### Start the development server:
 ```bash
 # Backend
-yarn start
+npm run dev 
 
 # Frontend
 cd client
-yarn start
+npm start
 ```
 
 ---
